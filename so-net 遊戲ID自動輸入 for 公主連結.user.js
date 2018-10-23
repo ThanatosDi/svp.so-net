@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         so-net 遊戲ID自動輸入 for 公主連結
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @namespace    https://github.com/Kutinging/svp.so-ne
+// @version      1.1
 // @description  so-net 遊戲ID自動輸入 for 公主連結
 // @author       ThanatosDi , S.Dot
 // @match        http://www.svp.so-net.tw/
