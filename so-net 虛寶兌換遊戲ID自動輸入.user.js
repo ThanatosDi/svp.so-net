@@ -10,7 +10,7 @@
 // @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
-function UID(game_no){
+async function UID(game_no){
     var ID = '';
     var UID = {};
     UID['SON010'] = 'SON010'; //東京偶像計畫
@@ -20,6 +20,7 @@ function UID(game_no){
     UID['SON007'] = 'SON007'; //轉吧！小海女！
     document.querySelector("input#user_id").value=UID[game_no];
     document.querySelector('input#user_id').focus();
+    await sleep(1000);
     document.querySelector('input#vp_no').focus();
 }
 
@@ -28,6 +29,7 @@ function UID(game_no){
     UID('SON010');
     addfunc(UID);
     addfunc(getGame);
+    addfunc(sleep);
     addlistener();
     var form = document.getElementsByTagName('form')[0];
     var label = document.createElement("div");
@@ -55,4 +57,8 @@ function addlistener(){
 
 function getGame(){
     return document.querySelector("select#game_no").value;
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
