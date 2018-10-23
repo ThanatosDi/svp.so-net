@@ -14,4 +14,14 @@
    document.querySelector("input#user_id").value="(你的公主連結帳號ID)"
    document.querySelector("input#user_id").focus();
    document.querySelector("input#vp_no").focus();
+   var form = document.getElementsByTagName('form')[0];
+   var label = document.createElement("div");
+   var span = (document.createElement("span"));
+   span.className = 'f_size';
+   var t = document.createTextNode("► 4.");
+   span.appendChild(t);
+   var t2 = document.createTextNode("腳本開發人員 : ThanatosDi , S.Dot");
+   label.appendChild(span)
+   label.appendChild(t2)
+   form.insertBefore(label,document.getElementById('btn_conf'));
 })();
