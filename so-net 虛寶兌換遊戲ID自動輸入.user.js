@@ -20,7 +20,6 @@ async function UID(game_no){
     UID['SON007'] = 'SON007'; //轉吧！小海女！
     document.querySelector("input#user_id").value=UID[game_no];
     document.querySelector('input#user_id').focus();
-    await sleep(1000);
     document.querySelector('input#vp_no').focus();
 }
 
@@ -29,7 +28,7 @@ async function UID(game_no){
     UID('SON010');
     addfunc(UID);
     addfunc(getGame);
-    addfunc(sleep);
+    //addfunc(sleep);
     addlistener();
     var form = document.getElementsByTagName('form')[0];
     var label = document.createElement("div");
