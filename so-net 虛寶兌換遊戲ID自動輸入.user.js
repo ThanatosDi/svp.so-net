@@ -14,7 +14,7 @@ async function UID(game_no){
     var ID = '';
     var UID = {};
     UID['SON010'] = 'SON010'; //東京偶像計畫
-    UID['SON009'] = '698094765'; //超異域公主連結☆Re：Dive
+    UID['SON009'] = 'SON008'; //超異域公主連結☆Re：Dive
     UID['SON008'] = 'SON008'; //神式一閃 頂上決戰
     UID['SON004'] = 'SON004'; //戰鬥女子學園
     UID['SON007'] = 'SON007'; //轉吧！小海女！
