@@ -2,7 +2,7 @@
 // @name         so-net 虛寶兌換遊戲ID自動輸入
 // @namespace    https://github.com/Kutinging/svp.so-net
 // @version      1.0
-// @description  so-net 虛寶兌換遊戲ID自動輸入，本版本為全遊戲收錄，請自行輸入遊戲ID，PC使用chrome或firefox，Android請使用firefox
+// @description  so-net 虛寶兌換遊戲ID自動輸入，本版本為全遊戲收錄，請自行輸入遊戲ID，PC使用chrome或firefox，Android請使用firefox，請自行安裝Tampermonkey
 // @author       ThanatosDi , S.Dot
 // @match        http://www.svp.so-net.tw/
 // @grant        none
